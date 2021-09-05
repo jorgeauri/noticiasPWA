@@ -22,7 +22,7 @@ function getNewsById(subject, id) {
     console.error('Ocorreu um err', err)
   })
 }
-
+// eslint-disable-next-line
 export default {
   getNews,
   getNewsById
